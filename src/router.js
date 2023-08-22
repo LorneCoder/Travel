@@ -30,6 +30,13 @@ const routes = [
           title: '测试'
         },
       },
+      {
+        path: '/chat',
+        component: () => import('./pages/chat/index.vue'),
+        meta: {
+          title: '聊天'
+        },
+      },
 ];
 
 const router = createRouter({
